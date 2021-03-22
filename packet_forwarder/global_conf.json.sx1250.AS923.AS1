@@ -13,12 +13,12 @@
     "radio_0": {
       "enable": true,
       "type": "SX1250",
-      "freq": 923600000,
+      "freq": 922400000,
       "rssi_offset": -215.4,
       "rssi_tcomp": {"coeff_a": 0, "coeff_b": 0, "coeff_c": 20.41, "coeff_d": 2162.56, "coeff_e": 0},
       "tx_enable": true,
-      "tx_freq_min": 923100000,
-      "tx_freq_max": 925100000,
+      "tx_freq_min": 921600000,
+      "tx_freq_max": 923600000,
       "tx_gain_lut":[
           {"rf_power": 12, "pa_gain": 1, "pwr_idx": 4},
           {"rf_power": 13, "pa_gain": 1, "pwr_idx": 5},
@@ -41,63 +41,63 @@
     "radio_1": {
       "enable": true,
       "type": "SX1250",
-      "freq": 924600000,
+      "freq": 923100000,
       "rssi_offset": -215.4,
       "rssi_tcomp": {"coeff_a": 0, "coeff_b": 0, "coeff_c": 20.41, "coeff_d": 2162.56, "coeff_e": 0},
       "tx_enable": false
     },
     "chan_multiSF_0": {
       "enable": true,
-      "radio": 0,
-      "if": 200000
+      "radio": 1,
+      "if": 100000
     },
     "chan_multiSF_1": {
       "enable": true,
-      "radio": 0,
-      "if": 400000
+      "radio": 1,
+      "if": 300000
     },
     "chan_multiSF_2": {
-      "enable": true,
-      "radio": 1,
-      "if": 200000
-    },
-    "chan_multiSF_3": {
-      "enable": true,
-      "radio": 1,
-      "if": 400000
-    },
-    "chan_multiSF_4": {
-      "enable": true,
-      "radio": 0,
-      "if": -400000
-    },
-    "chan_multiSF_5": {
       "enable": true,
       "radio": 0,
       "if": -200000
     },
-    "chan_multiSF_6": {
+    "chan_multiSF_3": {
       "enable": true,
       "radio": 0,
       "if": 0
     },
-    "chan_multiSF_7": {
+    "chan_multiSF_4": {
+      "enable": true,
+      "radio": 0,
+      "if": 200000
+    },
+    "chan_multiSF_5": {
       "enable": true,
       "radio": 1,
-      "if": 0
+      "if": -300000
+    },
+    "chan_multiSF_6": {
+      "enable": true,
+      "radio": 1,
+      "if": -100000
+    },
+    "chan_multiSF_7": {
+      "enable": true,
+      "radio": 0,
+      "if": -400000
     },
     "chan_Lora_std": {
       "enable": true,
-      "radio": 1,
-      "if": 100000,
-      "bandwidth": 250000,
-      "spread_factor": 7
+      "radio": 0,
+      "if": -300000,
+      "bandwidth": 500000,
+      "spread_factor": 8
     },
     "chan_FSK": {
-      "enable": true,
-      "radio": 1,
-      "if": -200000,
-      "bandwidth": 125000,
+      "enable": false,
+      "radio": 0,
+      "if": -600000,
+      "bandwidth": 250000,
       "datarate": 100000
     }
   },
@@ -115,4 +115,3 @@
     "forward_crc_disabled": false
   }
 }
-
