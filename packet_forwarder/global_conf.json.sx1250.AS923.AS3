@@ -13,12 +13,12 @@
     "radio_0": {
       "enable": true,
       "type": "SX1250",
-      "freq": 923500000,
+      "freq": 916900000,
       "rssi_offset": -215.4,
       "rssi_tcomp": {"coeff_a": 0, "coeff_b": 0, "coeff_c": 20.41, "coeff_d": 2162.56, "coeff_e": 0},
       "tx_enable": true,
-      "tx_freq_min": 923100000,
-      "tx_freq_max": 924700000,
+      "tx_freq_min": 916500000,
+      "tx_freq_max": 918300000,
       "tx_gain_lut":[
           {"rf_power": 12, "pa_gain": 1, "pwr_idx": 4},
           {"rf_power": 13, "pa_gain": 1, "pwr_idx": 5},
@@ -41,7 +41,7 @@
     "radio_1": {
       "enable": true,
       "type": "SX1250",
-      "freq": 924300000,
+      "freq": 917700000,
       "rssi_offset": -215.4,
       "rssi_tcomp": {"coeff_a": 0, "coeff_b": 0, "coeff_c": 20.41, "coeff_d": 2162.56, "coeff_e": 0},
       "tx_enable": false
